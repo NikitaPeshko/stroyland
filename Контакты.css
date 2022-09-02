@@ -10,6 +10,7 @@
 
 .u-section-1 .u-text-1 {
   font-size: 1.875rem;
+  font-weight: normal;
   margin: -220px auto 0 59px;
 }
 
@@ -24,6 +25,7 @@
 }
 
 .u-section-1 .u-text-4 {
+  font-size: 1rem;
   margin: 9px auto 0 54px;
 }
 
@@ -113,7 +115,6 @@
 
   .u-section-1 .u-text-1 {
     margin-top: 20px;
-    font-weight: normal;
   }
 
   .u-section-1 .u-text-2 {
@@ -127,7 +128,6 @@
 
   .u-section-1 .u-text-4 {
     margin-top: 28px;
-    font-size: 1rem;
   }
 
   .u-section-1 .u-btn-1 {
@@ -261,7 +261,7 @@
   .u-section-1 .u-map-1 {
     height: 197px;
     width: 307px;
-    margin-top: 453px;
+    margin-top: 383px;
     margin-right: auto;
   }
 
@@ -269,7 +269,7 @@
     font-size: 1.25rem;
     width: auto;
     font-weight: 700;
-    margin-top: -617px;
+    margin-top: -547px;
     margin-left: 30px;
   }
 
@@ -336,6 +336,7 @@
 }
 
 .u-section-2 .u-text-2 {
+  font-size: 1.5rem;
   margin: 40px auto 0;
 }
 
@@ -358,7 +359,6 @@
   .u-section-2 .u-text-2 {
     width: auto;
     margin-top: 60px;
-    font-size: 1.5rem;
   }
 
   .u-section-2 .u-image-1 {
