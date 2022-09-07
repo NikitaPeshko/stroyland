@@ -15,3 +15,34 @@
   margin: 30px auto 60px;
   padding: 55px 165px 55px 164px;
 }
+
+@media (max-width: 767px) {
+  .u-section-1 .u-sheet-1 {
+    min-height: 686px;
+  }
+
+  .u-section-1 .u-btn-1 {
+    margin-top: 71px;
+    margin-right: 43px;
+    padding: 24px 108px;
+  }
+}
+
+@media (max-width: 575px) {
+  .u-section-1 .u-sheet-1 {
+    min-height: 546px;
+  }
+
+  .u-section-1 .u-text-1 {
+    width: auto;
+    margin-top: 76px;
+    margin-right: auto;
+    margin-left: 4px;
+  }
+
+  .u-section-1 .u-btn-1 {
+    margin-top: 69px;
+    margin-right: auto;
+    padding: 5px 1px 5px 0;
+  }
+}
