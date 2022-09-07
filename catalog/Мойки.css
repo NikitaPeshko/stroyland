@@ -11,6 +11,7 @@
   grid-template-columns: 33.3333% 33.3333% 33.3333%;
   grid-gap: 0px 0px;
   min-height: 1068px;
+  grid-auto-columns: 33.3333%;
 }
 
 .u-section-1 .u-container-layout-1 {
@@ -52,53 +53,15 @@
   margin: 20px auto 0;
 }
 
-.u-section-1 .u-container-layout-4 {
-  padding: 30px;
-}
-
-.u-section-1 .u-image-4 {
-  height: 308px;
-  margin: 0 auto 0 0;
-}
-
-.u-section-1 .u-text-4 {
-  margin: 20px auto 0;
-}
-
-.u-section-1 .u-container-layout-5 {
-  padding: 30px;
-}
-
-.u-section-1 .u-image-5 {
-  height: 308px;
-  margin: 0 auto 0 0;
-}
-
-.u-section-1 .u-text-5 {
-  margin: 20px auto 0;
-}
-
-.u-section-1 .u-container-layout-6 {
-  padding: 30px;
-}
-
-.u-section-1 .u-image-6 {
-  height: 308px;
-  margin: 0 auto 0 0;
-}
-
-.u-section-1 .u-text-6 {
-  margin: 20px auto 0;
-}
-
 @media (max-width: 1199px) {
-  .u-section-1 .u-sheet-1 {
-    min-height: 991px;
-  }
-
   .u-section-1 .u-products-1 {
     margin-right: initial;
     margin-left: initial;
+  }
+
+  .u-section-1 .u-repeater-1 {
+    min-height: 881px;
+    grid-auto-columns: 33.333333333333336%;
   }
 
   .u-section-1 .u-image-1 {
@@ -115,32 +78,20 @@
     margin-right: initial;
     margin-left: initial;
   }
-
-  .u-section-1 .u-image-4 {
-    margin-right: initial;
-    margin-left: initial;
-  }
-
-  .u-section-1 .u-image-5 {
-    margin-right: initial;
-    margin-left: initial;
-  }
-
-  .u-section-1 .u-image-6 {
-    margin-right: initial;
-    margin-left: initial;
-  }
 }
 
 @media (max-width: 991px) {
   .u-section-1 .u-repeater-1 {
     grid-template-columns: 50% 50%;
+    min-height: 2024px;
+    grid-auto-columns: 50%;
   }
 }
 
 @media (max-width: 767px) {
   .u-section-1 .u-repeater-1 {
     grid-template-columns: 100%;
+    grid-auto-columns: 100%;
   }
 
   .u-section-1 .u-container-layout-1 {
@@ -154,21 +105,6 @@
   }
 
   .u-section-1 .u-container-layout-3 {
-    padding-left: 10px;
-    padding-right: 10px;
-  }
-
-  .u-section-1 .u-container-layout-4 {
-    padding-left: 10px;
-    padding-right: 10px;
-  }
-
-  .u-section-1 .u-container-layout-5 {
-    padding-left: 10px;
-    padding-right: 10px;
-  }
-
-  .u-section-1 .u-container-layout-6 {
     padding-left: 10px;
     padding-right: 10px;
   }
